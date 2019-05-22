@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+/* NavBar Styling */
+
+nav {
+    background-color: #C12127;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 15px;
+    height: 30px;
+}
+
+nav a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+#links-nav {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+#links-nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Header Styling Top */
+
+#logo-npm {
+    padding-right: 100px;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+
+#bear {
+    float: right;
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+
+.top-search {
+    display: flex;
+
+}
+
+.start {
+    background-color: rgb(32, 101, 136);
+    color: white;
+    height: 400px;
+    background-image: url("images/city-scape.svg");
+    background-size: cover;
+}
+
+
+#searchBox {
+    width: 55%;
+    padding-right: 300px;
+    border: none;
+    display: inline-block;
+    height: 35px;
+    background-color: rgb(31, 82, 111);
+}
+
+#logging-in {
+    padding-right: 100px;
+}
+
+/* Header Styling Bottom */
+
+.info-bottom {
+
+    display: inline-block;
+    float: left;
+    padding: 35px;
+    padding-left: 130px;
+
+}
+
+#cityscape {
+    float: right;
+}
+
+#searchBtn {
+    color: white;
+    padding: 10px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(240, 146, 51);
+}
+
+
+/*Second Section Collaboration */
+
+#sign-log {
+    background-color: rgb(39, 53, 71);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#collabheader {
+    float: right;
+}
+
+.sign-oncollab {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.collabtext {
+    float: right;
+}
+
+#collabimg {
+
+    margin: auto;
+    width: 500px;
+    height: 400px;
+}
+
+.signBtn {
+    color: white;
+    padding: 10px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(203, 56, 55);
+
+}
+
+.container {
+    width: 80%;
+}
+
+/*Third Section, What Is Npm Section*/
+
+#textforklift {
+    color: white;
+
+}
+
+.main-three {
+    height: 400px;
+    display: flex;
+    background-image: url("images/forklift.svg");
+    background-size: cover;
+}
+
+#forkliftsection {
+
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+}
+
+#imageboxes {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#whatisbtn {
+    color: white;
+    padding: 10px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(49, 68, 88);
+
+}
+
+#car {
+    width: 300px;
+    height: 175px;
+}
+
+/*Botton Styling*/
+.main-four {
+    padding-top: 10px;
+    padding: 18px;
+}
+
+#bottomheading {
+    text-align: center;
+}
+
+#group3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#find {
+    flex: 3;
+}
+
+#discover {
+    flex: 3;
+}
+
+#build {
+    flex: 3;
+}
